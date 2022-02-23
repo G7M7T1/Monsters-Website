@@ -10,4 +10,8 @@
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
   visibility: hidden;
+
+  h2 {
+    text-align: center;
+  }
 }

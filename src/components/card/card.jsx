@@ -20,7 +20,7 @@ export const Card = (props) => {
     return(
         <div className="card-container" onMouseEnter={mouseIn} onMouseLeave={mouseOut} >
             <img src={`https://robohash.org/${props.monster.id}?set=set2`} alt="Monster"/>
-            <h1>{props.monster.name}</h1>
+            <h2>{props.monster.name}</h2>
         </div>
     )
 }
